@@ -1,0 +1,138 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn {
+    padding: 0;
+    background-color: #1B0773;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: none;
+    cursor: pointer;
+
+    margin: 5px 0px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    line-height: 15px;
+    color: white;
+    background: #057D9F;
+    transition: 0.3s;
+
+  }
+  
+  .btn:hover {
+    box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+    transform: scale(1.05);
+  }
+
+
+
+#avatar-input::-webkit-file-upload-button {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: none;
+    cursor: pointer;
+
+    margin: 5px 5px 5px 0px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 15px;
+    color: white;
+    background: #057D9F;
+    transition: 0.3s;
+}
+
+
+.div_main {
+  float: left;
+  margin: 10px 10px;
+  padding: 5px 10px;
+  background: #FFAB00;
+
+}
+
+.div {
+  margin: 10px 10px;
+  padding: 5px 10px;
+  background: #FFD173;
+  border-radius: 5px;
+  border: 2px solid  rgba(256,256,256,9);
+}
+
+.div_user_rooms {
+  float: left;
+  display: inline;
+}
+
+.div_rooms {
+  float: left;
+  display: inline;
+  margin: 10px 10px;
+  padding: 5px 10px;
+}
+
+.room_name {
+    margin-bottom: 5px;
+    background: #FFD173;
+    padding: 5px 7px;
+    border-radius: 5px;
+    border: 2px solid  rgba(256,256,256,0.9);
+    font-weight: 700;
+}
+.div_chat {
+    float: left;
+    display: inline-block;
+    /* border: 1px solid blue; */
+    margin: 10px 10px;
+}
+
+
+#avatar-input {
+    margin: 5px 0px;
+}
+
+.message {
+    color: #1B0773;
+}
+
+p {
+    margin: 0px 0;
+    padding: 0px 0px;
+}
+
+.textarea {
+    height: 600px;
+    width: 300px;
+    background: #FFD173;
+    padding: 5px 7px;
+    border-radius: 5px;
+    border: 2px solid  rgba(256,256,256,9);
+    font-size: 14px;
+}
+
+@media screen and (max-width: 500px) {
+
+img {
+    width: 20%;
+    height: auto;
+}
+
+
+.div {
+    margin: 0px 0px;
+    padding: 5px 10px;
+}
+
+.textarea {
+    height: 200px;
+    margin: 0px 0px;
+}
+
+}
